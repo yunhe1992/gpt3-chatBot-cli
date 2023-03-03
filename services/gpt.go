@@ -10,7 +10,7 @@ import (
 const (
 	maxTokens   = 3000
 	temperature = 0.7
-	engine      = gpt3.TextDavinci003Engine
+	engine      = gpt3.Turbo35Engine
 )
 
 var client gpt3.Client
